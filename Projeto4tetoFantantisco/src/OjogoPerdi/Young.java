@@ -1,23 +1,24 @@
 package OjogoPerdi;
 
-public class Young extends GallowsGame{
-	public Young(String name, int age)
-	{
-		super(name,age);
-	
+public class Young extends GallowsGame {
+	public Young(String name, int difficult) {
+		super(name, difficult);
+
 	}
+
 	@Override
-	public String arrayWords(int x) 
-	{
-	
-		String[] words = {"Puberdade", "Coxinha","Computador","Youtube","Generation"};
+	public String arrayWords(int x) {
+
+		String[] words = { "puberdade", "coxinha", "computador", "youtube", "generation", "skateboard", "camping",
+				"biologia", "friends", "instagram" };
 		return words[x];
 	}
+
 	@Override
-	public String arrayTips(int x) 
-	{
-	
-		String[] tips = {"nós damos de graça.", "todos nós temos.","precisa desenvolver.","estado de espirito.","triste marco da humanidade"};
+	public String arrayTips(int x) {
+
+		String[] tips = { "Fase da vida.", "comida", "máquina", "internet", "Organização TOP", "esporte radical",
+				"floresta", "estudo", "amigos", "app" };
 		return tips[x];
 	}
 }
